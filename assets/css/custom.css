@@ -1,0 +1,110 @@
+/* GENERAL */
+.gdesc-inner
+{
+    background-color: var(--background-color);
+   
+}
+.gslide-title
+{
+    color: var(--accent-color) !important;
+}
+.navmenu a
+{
+    display: flex;
+    gap: 10px;
+}
+.card-third:hover
+{
+    background-color: #28A745  !important;
+}
+.card-second:hover
+{
+    background-color: #007BFF !important;
+}
+.footer-content
+{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-content a
+{
+    border-radius: 0.5rem;
+    padding-left: 10px;
+}
+.php-email-form button:hover
+{
+    color: black !important;
+}
+.cta-btn:hover
+{
+    color: black !important;
+}
+
+/* F. A . Q */
+.faq-container
+{
+    margin-top: 5rem;
+}
+.faq-container ol {
+    counter-reset: my-counter;
+}
+
+.faq-container ol li {
+    list-style: none;
+    position: relative;
+    margin: 4rem 4rem 1em 2em;
+    margin-right: 5rem;
+}
+
+.faq-container ol li:before {
+    counter-increment: my-counter;
+    content: counter(my-counter);
+    position: absolute;
+    left: -3em;
+    top: 0;
+    background: var(--accent-color); /* Color de fondo */
+    color: #000; /* Color del texto */
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    border-radius: 50%; /* Forma circular */
+    text-align: center;
+    font-weight: bold;
+}
+.faq-container p
+{
+    margin-left: 1.2rem;
+}
+
+.faq-container h3 {
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+.navmenu i
+{
+    font-size: 1.1rem !important;
+
+}
+
+/* HISTORIA */
+.historia-textos
+{
+    width: 90%;
+}
+
+@media (min-width: 200px) {
+    .historia div img
+    {
+        max-width: 90%;
+        margin-bottom: 1rem;
+        border-radius: 2rem;
+    }
+ }
+ @media (min-width: 600px) {
+    .historia div img
+    {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+ }
+
