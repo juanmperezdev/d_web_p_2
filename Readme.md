@@ -1,3 +1,8 @@
+## Parcial 2 - Diseño y Desarrollo web / Viernes - Noche UADE
+# Integrante:
+- Pérez, Juan Manuel | LU: 1017180
+
+## Template Original
 Thanks for downloading this template!
 
 Template Name: Restaurantly
